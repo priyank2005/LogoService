@@ -1,0 +1,31 @@
+{
+  "name": "LogoService",
+  "version": "1.0.0",
+  "description": "Getting logo for a BrandName from Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priyank2005/LogoService.git"
+  },
+  "keywords": [
+    "Logo",
+    "from",
+    "Name",
+    "Logo",
+    "Service"
+  ],
+  "author": "Priyank Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyank2005/LogoService/issues"
+  },
+  "homepage": "https://github.com/priyank2005/LogoService",
+  "dependencies": {
+    "node-cache": "^1.1.0",
+    "twitter": "^1.2.1",
+    "wordpos": "^0.1.15"
+  }
+}
