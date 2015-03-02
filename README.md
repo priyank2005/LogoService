@@ -18,7 +18,7 @@ In the list of users so retreived we will use the profile image of user which as
 
 Using service
 
-    var logoService = require('LogoService');
+    var logoService = require('logoservice');
     var LogoService = new logoService(TWITTER_CONFIG, RETURN_FIRST_RESULT);
     
     

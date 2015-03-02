@@ -1,5 +1,5 @@
 {
-  "name": "LogoService",
+  "name": "logoservice",
   "version": "1.0.0",
   "description": "Getting logo for a BrandName from Twitter",
   "main": "index.js",
