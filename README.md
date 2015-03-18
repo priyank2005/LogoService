@@ -31,3 +31,18 @@ TWITTER_CONFIG is the configuation of twitter application:
         access_token_secret: '<VALUE>'
     }
 RETURN_FIRST_RESULT if set to true then first result is returned, if skipped or set to false then profile image of the best twitter account from the search result is returned.
+
+### Finally getting logo
+
+    LogoService.getLogoForName(brandname, function(err, data) {
+                if (err || !data) {
+                    console.log('Unable to find logo correctly');
+                    console.log(err);
+                    sendResponse(404, '', res);
+                } else {
+                    res.writeHead(302, {
+                        'Location': data
+                    });
+                    res.end();
+                }
+            });
